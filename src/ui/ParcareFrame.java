@@ -86,9 +86,9 @@ public class ParcareFrame extends JFrame implements ActionListener, Serializable
     this.tabbedPane = new JTabbedPane();
     this.parcare = new Parcare("Masini", 35, 35, 0.2);
     //Serializare.writeToFile(parcare);
-    this.parcare = Serializare.readFile();
+    //this.parcare = Serializare.readFile();
 
-    //dateIntrareTest();
+    dateIntrareTest();
 
     this.component1 = new JPanel();
     this.component2 = new JPanel();

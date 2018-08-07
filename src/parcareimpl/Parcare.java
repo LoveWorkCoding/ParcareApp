@@ -22,7 +22,7 @@ public class Parcare implements Serializable {
   private TimpData dataIntrare;
   private TimpData dataIesire;
   private TimpData timp;
-  private TimpData t;
+  private TimpData t=new TimpData();
   protected ArrayList<Istoric> istoric = new ArrayList<Istoric>();
   protected ArrayList<NumarInmatriculare> numereInmatriculare;
 
